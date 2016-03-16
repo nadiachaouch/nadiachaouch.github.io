@@ -11,8 +11,8 @@ http.get('http://muslim-connections', function (res) {
         uri     : 'api/email'
       , method  : 'POST'
       , json    : {
-          to      : 'hello@taskmill.io'
-        , from    : 'hello@taskmill.io'
+          to      : 'info@muslim-connections.com'
+        , from    : 'info@muslim-connections.com'
         , subject : 'subject: muslim-connections.com error'
         , text    : e
       }
